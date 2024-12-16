@@ -1,0 +1,105 @@
+.principal {
+  background: #C0D7EF;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: 
+      "titulo titulo"
+      "caruselprin caruselprin"
+      "stit stit"
+      "parrafoprin parrafoprin"
+      "stit2 stit2"
+      "parrafoprin2 parrafoprin2"
+      "c1 c2"
+      "c3 c4"
+      "piep piep"; 
+}
+
+.principal .pie {
+  margin: none;
+  background-color: #000;
+  outline: 2px;
+  grid-area: piep;
+}
+
+.titulop {
+  color: black;
+  text-align: center;
+  grid-area: titulo;
+}
+
+.carousel {
+  margin: 0 auto;
+  max-width: 1200px;
+  grid-area: caruselprin;
+}
+
+.carousel-image {
+  width: 100%;
+  height: block;
+  grid-area: caruselprin;
+}
+
+h2 {
+  margin: 10px;
+  color: #000 !important;
+  grid-area: stit;
+}
+
+.principal .parrafoprin {
+  margin: 10px;
+  color: black;
+  grid-area: parrafoprin;
+}
+
+.principal .stit2 {
+  margin: 10px;
+  grid-area: stit2;
+}
+
+.principal .parrafoprin2 {
+  margin: 10px;
+  color: black;
+  grid-area: parrafoprin2;
+}
+
+.principal .c1 {
+  grid-area: c1;
+}
+
+.principal .c2 {
+  grid-area: c2;
+}
+
+.principal .c3 {
+  grid-area: c3;
+}
+
+.principal .c4 {
+  grid-area: c4;
+}
+
+@media screen and (max-width: 768px) {
+  .principal {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-areas: 
+          "titulo"
+          "caruselprin"
+          "stit"
+          "parrafoprin"
+          "stit2"
+          "parrafoprin2"
+          "c1"
+          "c2"
+          "c3"
+          "c4"
+          "pie";
+  }
+
+  .titulop, .carousel, .carousel-image, h2, .parrafoprin, .stit2, .parrafoprin2, .c1, .c2, .c3, .c4, .pie {
+      width: 100%;
+      margin: 0;
+  }
+}
+

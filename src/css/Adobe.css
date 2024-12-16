@@ -1,0 +1,14 @@
+.PrinAdobe{
+    background: rgb(171,216,117);
+background: linear-gradient(140deg, rgba(171,216,117,1) 0%, rgba(243,225,87,1) 16%, rgba(249,192,78,1) 32%, rgba(249,135,86,1) 48%, rgba(247,107,88,1) 64%, rgba(245,100,127,1) 73%, rgba(243,104,178,1) 100%);
+}
+
+.titAd{
+    text-align: center;
+}
+
+.PrinAdobe .adobp{
+    text-align: justify;
+    color: black;
+    border-radius: 1px;
+}
