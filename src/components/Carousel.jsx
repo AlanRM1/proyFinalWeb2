@@ -6,7 +6,7 @@ import {
   CarouselIndicators,
   CarouselCaption,
 } from 'reactstrap';
-import '../css/carousel.css';
+import '../css/Carousel.css';
 
 const CustomCarousel = ({ items }) => {
   const [activeIndex, setActiveIndex] = useState(0);
